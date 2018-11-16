@@ -62,9 +62,9 @@ parser.add_argument('result_prefix', metavar='res_prefix', type=str,
                     help='Prefix for the saved results.')
 parser.add_argument('--iter', type=int, default=10, required=False,
                     help='Number of iterations to run.')
-parser.add_argument('--content_weight', type=float, default=0.075, required=False,
+parser.add_argument('--content_weight', type=float, default=1.5, required=False,
                     help='Content weight.')
-parser.add_argument('--style_weight', type=float, default=2.0, required=False,
+parser.add_argument('--style_weight', type=float, default=5.0, required=False,
                     help='Style weight.')
 parser.add_argument('--tv_weight', type=float, default=1.0, required=False,
                     help='Total Variation weight.')
